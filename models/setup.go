@@ -16,7 +16,7 @@ func ConnectDatabase() {
 		fmt.Println("Gagal koneksi database")
 	}
 
-	db.AutoMigrate(&User{})
+	db.AutoMigrate(&User{}, &Karyawan{})
 
 	DB = db
 }
