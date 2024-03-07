@@ -10,7 +10,7 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	const connStr = "postgres://postgres:1234@localhost:5432/go-restapi"
+	const connStr = "postgres://postgres:1234@localhost:5432/company"
 	db, err := gorm.Open(postgres.Open(connStr))
 	if err != nil {
 		fmt.Println("Gagal koneksi database")
