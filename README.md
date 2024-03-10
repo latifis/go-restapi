@@ -49,7 +49,9 @@ https://documenter.getpostman.com/view/19724773/2sA2xfXsux
  - Login Failed
  ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/login-gagal.png?raw=true)
  - Register
- ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/register.png?raw=true)
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/register.png?raw=true)when-user-already-exists
+- Failed Register when User Already Exists 
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/register.png?raw=true)when-user-already-exists
  - Get Data Unauthorized
  ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/get-data-unauthorized.png?raw=true)
  - Create Karyawan

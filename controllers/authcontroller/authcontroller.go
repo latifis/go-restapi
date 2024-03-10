@@ -95,6 +95,14 @@ func Register(w http.ResponseWriter, r *http.Request) {
 	}
 	defer r.Body.Close()
 
+	// Memeriksa apakah nama pengguna sudah digunakan
+	var existingUser models.User
+	if err := models.DB.Where("username = ?", userInput.Username).First(&existingUser).Error; err == nil {
+		response := map[string]string{"message": "Can't use that name, search for another name"}
+		helper.ResponseJSON(w, http.StatusConflict, response)
+		return
+	}
+
 	// hash pass menggunakan bcrypt
 	hashPassword, _ := bcrypt.GenerateFromPassword([]byte(userInput.Password), bcrypt.DefaultCost)
 	userInput.Password = string(hashPassword)
