@@ -1,4 +1,4 @@
-# Simple Node PostgreSQL
+# Simple Golang REST API with PostgreSQL
 This is a project for creating APIs with.
  - `Login` and `Register` API Function with JWT Auth.
  - `Create` API Function - It can add an employee and fill the created_at column in the employee table.
@@ -41,3 +41,26 @@ To view documentation for using this program, you can go to the [documentation](
 ```
 https://documenter.getpostman.com/view/19724773/2sA2xfXsux
 ```
+
+### Preview
+
+- Login
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/login-berhasil.png?raw=true)
+ - Login Failed
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/login-gagal.png?raw=true)
+ - Register
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/register.png?raw=true)
+ - Get Data Unauthorized
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/get-data-unauthorized.png?raw=true)
+ - Create Karyawan
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/create-karyawan.png?raw=true)
+ - Get All Data Karyawan
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/get-all-data-karyawan.png?raw=true)
+ - Get Data Karyawan by ID
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/get-data-karyawan-by-id.png?raw=true)
+ - Update Data Karyawan
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/update-data-karyawan.png?raw=true)
+ - Soft Delete Karyawan
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/soft-delete-karyawan.png?raw=true)
+ - Get Karyawan When They Have Been Soft Delete
+ ![alt text](https://github.com/latifis/etc/blob/main/go-restapi/get-karyawan-when-they-have-been-soft-delete.png?raw=true)
